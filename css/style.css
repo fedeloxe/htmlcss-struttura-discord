@@ -1,12 +1,11 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    
+    box-sizing: border-box;    
 }
 
 header{
-    height: 250px;
+    height: 275px;
     background-color: aqua;
     position:fixed;
     width:100%;
@@ -19,8 +18,9 @@ header{
     margin:  auto;
     align-items: center;
     margin-top: 25px;
-    width: 90%;
+    width: 80%;
     justify-content: space-between;
+    margin-bottom: 25px;
 
 }
 
@@ -40,3 +40,21 @@ ul {
     display: flex;
     list-style-type: none;
 }
+
+.cont-jumbotron{
+    height: 190px;
+    background-color: blue;
+    display: flex;
+    
+}
+
+.jumbotron{
+    background-color: pink;
+    border: 1px dashed black;
+    height: 150px;
+    width: 60%;
+    margin:  auto;
+}
+
+
+
