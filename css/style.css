@@ -5,7 +5,7 @@
 }
 
 header{                 /*header*/
-    height: 275px;
+    height: 570px;
     background-color: aqua;
     width:100%;
     display: flex;
@@ -14,30 +14,27 @@ header{                 /*header*/
 
 .navbar1{                         /*sezione 1 header*/
     background-color: yellow;
-    
+    height: 30px;
     display: flex;
     margin:  auto;
     align-items: center;
-    width: 80%;
+    width: 60%;
     justify-content: space-between;
     margin-bottom: 25px;
-    border: 2px dashed black;
-
-}
-
-.div-navbar1{
     border: 2px dashed black;
 }
 
 #logo{
-    padding: 5px 100px 5px 5px;
+    border-right: 2px dashed black; 
+    padding-right: 100px;
+    height: 100%;
 }
 
 #login{
-    padding: 5px 5px 5px 100px;
+    height: 100%;
+    border-left: 2px dashed black;
+    padding-left:100px;
 }
-
-
 
 ul {
     
@@ -46,7 +43,7 @@ ul {
 }
 
 .cont-jumbotron{                  /*sezione 2 header*/
-    height: 190px;
+    height: 500px;
     background-color: blue;
     display: flex;
     
@@ -55,16 +52,12 @@ ul {
 .jumbotron{
     background-color: pink;
     border: 2px dashed black;
-    height: 150px;
-    width: 60%;
+    height: 450px;
+    width: 50%;
     margin:  auto;
 }
 
-
-/*main*/
-
-
-
+  /*main*/
 main{
     margin-top: 25px;
     
@@ -74,7 +67,7 @@ main{
 
 .section{
     width: 100%;
-    height: 250px;
+    height: 550px;
     display: flex;
     align-items: center;
     margin: auto;
@@ -82,7 +75,7 @@ main{
 }
 
 .bg-pink{
-    width: 25%;
+    width: 20%;
     height: 90%;
     border: 2px dashed black;
     background-color: pink;
@@ -91,7 +84,7 @@ main{
 }
 
 .bg-blue{
-    width: 50%;
+    width: 40%;
     height: 90%;
     border: 2px dashed black;
     background-color: blue;
@@ -107,7 +100,7 @@ main{
 
 .last-maincont{
     background-color: lightgray;
-    height: 500px;
+    height: 1000px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -116,7 +109,7 @@ main{
 
 .last-section{
     background-color: green;
-    width: 75%;
+    width: 60%;
     height: 90%;
     border: 2px dashed black;
 }
@@ -127,22 +120,22 @@ footer{
     background-color: darkslategray;
     width: 100%;
     display: flex;
-    height: 400px;
+    height: 600px;
     flex-direction: column;
 
 }
 
 .sezione1-foot{    /*sezione 1 footer*/
-    height: 375px ;
-    width: 100%;
+    height: 600px ;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .footpink{
     background-color: pink;
     height: 90%;
-    width: 35%;
+    width: 20%;
     border: 2px dashed black;
 }
 
@@ -150,20 +143,18 @@ footer{
     background-color: aqua;
     height: 90%;
     width: 10%;
-    border: 2px dashed black;
+    border: 2px dashed white;
 }
 
 /*sezione2 footer*/
 
-
-.navbar2{                         /*sezione 1 header*/
+.navbar2{                      
     background-color: aquamarine;
     display: flex;
     margin:  auto;
-    align-items: center;
-    width: 75%;
+    align-items: flex-end;
+    width: 60%;
     justify-content: space-between;
-    
     margin-top: 10px;
 }
 
@@ -180,10 +171,4 @@ footer{
     border: 2px dashed black;
     background-color: pink;
     margin:15px 0px 15px 0px;
-
-
 }
-
-
-
-
