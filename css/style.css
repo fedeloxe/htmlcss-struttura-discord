@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+header{
+    height: 250px;
+    background-color: aqua;
+    position:fixed;
+    width:100%;
+}
+
+.navbar1{
+    background-color: yellow;
+    border: 1px dashed black;
+    display: flex;
+    margin:  auto;
+    align-items: center;
+    margin-top: 25px;
+    width: 90%;
+    justify-content: space-between;
+
+}
+
+.div-navbar1{
+    border: 1px dashed black;
+}
+
+#logo{
+    padding: 5px 100px 5px 5px;
+}
+
+#login{
+    padding: 5px 5px 5px 100px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
