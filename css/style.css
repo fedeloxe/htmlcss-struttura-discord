@@ -17,13 +17,14 @@ header{                 /*header*/
 
 .navbar1{                         /*sezione 1 header*/
     background-color: yellow;
-    border: 1px dashed black;
+    
     display: flex;
     margin:  auto;
     align-items: center;
     width: 80%;
     justify-content: space-between;
     margin-bottom: 25px;
+    border: 2px dashed black;
 
 }
 
@@ -39,7 +40,10 @@ header{                 /*header*/
     padding: 5px 5px 5px 100px;
 }
 
+
+
 ul {
+    
     display: flex;
     list-style-type: none;
 }
@@ -69,7 +73,7 @@ main{
     
 }
 
-/*prime 3 section*/
+/*prime 3 mainsection*/
 
 .section{
     width: 100%;
@@ -99,6 +103,26 @@ main{
 
 
 .section.gray{
-    background-color: gray;
+    background-color: lightgray;
 }
+
+/*last main section*/
+
+.last-maincont{
+    background-color: lightgray;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.last-section{
+    background-color: green;
+    width: 75%;
+    height: 90%;
+    border: 2px dashed black;
+}
+
+
 
